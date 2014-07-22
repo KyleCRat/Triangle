@@ -1,0 +1,425 @@
+@charset "utf-8";
+/* CSS Document */
+* {margin:0; padding:0;}
+
+@font-face {
+  font-family: CoGothic;
+  src:url(fonts/COPRGTL.TTF);
+} 
+
+@font-face {
+  font-family: CoGothicBold;
+  src:url(fonts/COPRGTB.TTF);
+} 
+
+
+/* This section controlls the stickyfooter */
+	
+html, body {
+    height: 100%;
+}
+	
+.wrapper {
+	background: url(images/darkerNoiseBackground.jpg);
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto;
+}
+	
+.footer, .push {
+    height: 219px;
+}
+
+/* This section is for content styleing */
+
+p {
+	color: white;
+	font-family: CoGothic;
+}
+
+#p2 {
+	color: white;
+	font-family: CoGothicBold;
+}
+
+a {
+	position: relative;
+	font-family: CoGothic;
+	text-align: center;
+	color: #909090 ;
+}
+
+h1 {
+	color: white;
+	font-family: CoGothicBold;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+	font-family: CoGothicBold;
+	text-align: center;
+}
+
+h3 {
+	color: white;
+	font-family: CoGothicBold;
+}
+
+/* This section is DIV configureing */
+
+.containerTop {
+	background-image:url(images/lighterNoiseBackground.png);
+	background-repeat: repeat;
+}
+
+.banner {
+	height: 0px;
+}
+
+.bannerimage {
+	position: relative;
+	height: 100px;
+	width: 960px;
+	margin: 0 auto;
+	z-index: 9999;
+}
+
+.headder-container{
+	position: relative;
+	background-image: url(images/headder-BG.png);
+	background-repeat: repeat-x;
+	height: 600px;
+	overflow: hidden;
+	z-index: 1000;
+	
+}
+	
+.headder {
+	position: relative;
+	top: 0px;
+	left: 50%;
+	margin-left: -1080px; /* half of the width */
+	z-index: 1;	/*
+	position:absolute;
+	width: 2160px; 
+	margin-left: -1090px;*/
+}
+
+.headder-left {
+	background-image: url(images/headderBG-left.png);
+	background-repeat: no-repeat;
+	width: 600px;
+	height: 620px;
+	float: left;
+}
+
+.headder-mid {
+	background-image: url(images/headderBG-middleB.png);
+	background-repeat: no-repeat;
+	width: 960px;
+	height: 620px;
+	float: left;
+}
+
+.headder-right {
+	background-image: url(images/headderBG-right.png);
+	background-repeat: no-repeat;
+	width: 600px;
+	height: 620px;
+	float: left;
+}
+
+.navbar {
+	position: relative;
+	height: 25px;
+	color:#555;
+	font-family: CoGothic;
+	text-align: center;
+	margin-top: 105px;
+	z-index: 9999;
+}
+
+.slideshow-frame {
+	background: url(images/slideshowBackground.png);
+	position: relative;
+	height: 450px;
+	width: 960px;
+	margin-top: 5px;
+}
+
+#slideshow {
+	position: relative;
+	background: #000;
+	width: 928px;
+	height: 400px;
+	left: 16px;
+	top: 16px;
+}
+
+.slide {
+	position: absolute;
+	width: 928px;
+	height: 400px;
+	left: 0;
+	top: 0;
+	z-index: 1001;
+}
+
+#slideshow-buttons {
+	position: relative;
+	top: 17px;
+	height: 20px;
+	width: 800px;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+}
+
+.headderBottom {
+	position: relative;
+	margin: auto;
+	height: 80px;
+}
+
+.headderBottomContent {
+	position: relative;
+	margin: auto;
+	height: 80px;
+	width: 960px;
+	background-image: url(images/headderBottomContent.png);
+}
+
+
+
+.headderBottomContentLeft {
+	float: left;
+	width: 320px;
+	height: 100%;
+}
+
+.headderBottomContentRight {
+	float: left;
+	width: 640px;
+	height: 100%;
+}
+
+#title {
+	position: relative;
+	margin-top: 23px;
+	z-index: 9999;
+	color:#e1e1e0;
+	font-family: CoGothicBold;
+	text-align: center;
+	font-size:34px;
+}
+
+#titleGovDocs {
+	position: relative;
+	z-index: 9999;
+	color:#e1e1e0;
+	font-family: CoGothicBold;
+	text-align: center;
+	font-size:34px;
+}
+
+#titleTwoGovDocs {
+	position: relative;
+	z-index: 9999;
+	color:#e1e1e0;
+	font-family: CoGothicBold;
+	text-align: center;
+	font-size:22px;
+}
+
+.containerMid {
+	
+	box-shadow: 0 -3px 0 #444;
+	background-repeat: repeat;
+	height: 1200px;
+}
+
+
+
+.contentMid {
+	position: relative;
+	background-image: url(images/contentMid.png);
+	background-repeat: repeat-y;
+	margin: auto;
+	width: 960px;
+	height: 95%;
+	z-index: 999;
+}
+
+.contentMidLeftBar {
+	float: left;
+	width: 320px;
+	height: 100%;
+}
+
+.contentMidRightBar {
+	float: left;
+	width: 640px;
+	height: 100%;
+}
+
+.contentBottom {
+	margin: auto;
+	width: 960px;
+	height: 30px;
+	background-image: url(images/contentBottom.png)	
+}
+
+.containerFooter {
+	background-image: url(images/footerBackground.png);
+	background-repeat: repeat-x;
+	height: 219px;
+	width: 100%;
+}
+
+.footerContent {
+	margin: auto;
+	width: 980px;
+	height: 100%;
+	background-image: url(images/footerContentBackground.png);
+}
+
+#footerContent {
+	position:relative;
+	height: 110px;
+	width: 700px;
+	top: 80px;
+	left: 20px;
+	clear:both;
+}
+
+#footerText {
+	position: relative;
+	z-index: 9999;
+	color:#000;
+	font-family: CoGothic;
+	text-align: center;
+}
+
+#footerHead {
+	position: relative;
+	z-index: 9999;
+	color:#000;
+	font-family: CoGothicBold;
+	text-align: center;
+	text-decoration:underline;
+}
+
+/*CSS For non home page content */
+
+.wrapper-non-home {
+	background: url(images/darkerNoiseBackground.jpg);
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.headder-container-non-home {
+	position: relative;
+	background-image: url(images/headder-BG.png);
+	background-repeat: repeat-x;
+	height: 300px;
+	overflow: hidden;
+	z-index: 1000;
+}
+
+.navbarContent-non-home {
+	position: absolute;
+	height: 25px;
+	color:#555;
+	font-family: CoGothic;
+	text-align: center;
+	z-index: 9999;
+	width: 960px;
+	left: 50%;
+	margin-left: -480px;
+	margin-top: 105px;
+}
+
+.headderBottom-non-home {
+	position: relative;
+	margin: auto;
+	height: 200px;
+	background-image: url(images/headderBottomContent-not-home-FOR-TILEING.png);
+	background-repeat: repeat-x;
+	height: 150px;
+}
+
+.containerMid-non-home {
+	position: relative;
+	box-shadow: 0 -3px 0 #444;
+	margin-bottom: -200px;
+}
+
+.contentTop-non-home {
+	position: relative;
+	top: -300px;
+	background-image:url(images/headderBottomContent-not-home.png);
+	background-repeat: no-repeat;
+	margin: auto;
+	width: 960px;
+	height: 60px;
+	z-index: 1000;
+}
+
+.contentMid-non-home {
+	position: relative;
+	top: -300px;
+	background-image: url(images/contentMid-non-home.png);
+	background-repeat: repeat-y;
+	margin: 0 auto;
+	width: 960px;
+	height: 100%;
+	z-index: 1000;
+	overflow:visible;
+}
+
+#contentMid-non-home {
+	position:relative;
+	margin: auto;
+	width: 920px;
+	height: 100%;
+	top: -36px;
+}
+
+#contentMid-columb-container {
+	position: relative;
+	margin: 0 auto;
+	height: auto;
+	width: 960px;
+	clear: both;
+	overflow: hidden;
+}
+
+#contentMid-non-home-colone {
+	position: relative;
+	padding-left: 10px;
+	float: left;
+	width: 450px;
+	height: 100%;
+}
+
+#contentMid-non-home-coltwo {
+	position: relative;
+	padding-right: 50px;
+	width: 450px;
+	float: right;
+	height: 100%;
+}
+
+.contentBottom-non-home {
+	clear: both;
+	position: relative;
+	margin: auto;
+	top: -300px;
+	width: 960px;
+	height: 60px;
+	background-image: url(images/contentBottom-non-home.png);
+	overflow:visible;
+}
